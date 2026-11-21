@@ -24,7 +24,9 @@ from gpiozero import Button, GPIOZeroError, OutputDevice
 from pymodbus.client import ModbusTcpClient
 from pymodbus.exceptions import ModbusException
 
+# ==============================================================================
 # Use this when testing on a non-RPi platform to avoid GPIO errors:
+# ==============================================================================
 #os.environ["GPIOZERO_PIN_FACTORY"] = "mock"
 
 # ==============================================================================
