@@ -1,4 +1,4 @@
-Inital Commit of code to run on Raspberry PI that measures stream depth and pump water into a climate controled trailer that has a basin that is rinsed and then sampled from.
+Code to run on Raspberry PI that measures stream depth and pumps water into a climate controled trailer that has a basin that is rinsed and then sampled from.
 
 Devices and equipment actively controlled by the Raspberry Pi:
 1. Stream Water Pump (120V AC, 2A pump controlled via GPIO 17 and the Digital Loggers IoT Power Relay II)
